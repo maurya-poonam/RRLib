@@ -1,5 +1,4 @@
 import Foundation
-//import UIKit
 import WebKit
 
 public class RRWebView: WKWebView {
@@ -8,8 +7,6 @@ public class RRWebView: WKWebView {
         let webConfiguration = WKWebViewConfiguration()
         webConfiguration.preferences.javaScriptEnabled = true
         super.init(frame: .zero, configuration: webConfiguration)
-        //self.scrollView.isScrollEnabled = false
-        //self.isMultipleTouchEnabled = false
     }
     
     required init?(coder: NSCoder) {
